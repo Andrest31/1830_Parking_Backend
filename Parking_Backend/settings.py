@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Parking_Backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "Parking/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
